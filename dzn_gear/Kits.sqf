@@ -118,7 +118,7 @@ kit_mossad_pl = [
 	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
 ];
 
-//kit_mossad_random = [
+kit_mossad_random = [
 	,"kit_mossad_sl"
 	,"kit_mossad_gr"
 	,"kit_mossad_ar"
@@ -135,7 +135,7 @@ kit_uganda_sl = [
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<UNIFORM ITEMS >> ",synk[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",3]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
