@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=31;
+		nextID=36;
 	};
 	class Camera
 	{
-		pos[]={5150.0786,107.78815,2169.6792};
+		pos[]={5133.8608,109.46154,2157.4265};
 		dir[]={-0.013420713,-0.60244048,0.79806757};
 		up[]={-0.01012953,0.79814446,0.60237962};
 		aside[]={0.99987066,2.4178007e-007,0.016813427};
@@ -145,6 +145,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -190,25 +209,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -1970,7 +1970,7 @@ class Mission
 				};
 			};
 			id=265;
-			atlOffset=0.92180061;
+			atlOffset=0.88631153;
 		};
 		class Item33
 		{
@@ -2151,7 +2151,7 @@ class Mission
 			dataType="Layer";
 			name="DynAI Layer";
 			id=345;
-			atlOffset=0.59874916;
+			atlOffset=43.779999;
 		};
 		class Item36
 		{
@@ -2239,7 +2239,6 @@ class Mission
 				};
 			};
 			id=400;
-			atlOffset=-0.080856323;
 		};
 	};
 	class Connections

@@ -57,43 +57,10 @@ kit_mossad_r = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
-	["<UNIFORM ITEMS >> ",UNIFORM_ITEMS],
+	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_MapTools",1],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",8],["SmokeShell",1],["CUP_HandGrenade_M67",2],["HANDGUN MAG",3]]]
-];
-
-kit_mossad_ar = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_R_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","B_FieldPack_oli","CUP_H_BAF_Helmet_Net_2_DPM",""],
-	["<PRIMARY WEAPON >>  ","LMG_Zafir_F","150Rnd_762x54_Box",["","","",""]],
-	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
-	["<UNIFORM ITEMS >> ", UNIFORM_ITEMS],
-	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_MapTools",1],["PRIMARY MAG",1],["rhs_mag_m18_yellow",2],["CUP_HandGrenade_M67",2],["rhs_mag_mk84",1],["SmokeShellRed",1]]],
-	["<BACKPACK ITEMS >> ",[["150Rnd_762x54_Box_Tracer",3],["HANDGUN MAG",2]]]
-];
-
-kit_mossad_sl = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_R_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","tf_rt1523g_big_bwmod","CUP_H_BAF_Helmet_Net_2_DPM","TRYK_Shemagh"],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
-	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
-	["<UNIFORM ITEMS >> ",UNIFORM_ITEMS_L],
-	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
-	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
-];
-
-kit_mossad_ftl = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_R_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","tf_rt1523g_big_bwmod","CUP_H_BAF_Helmet_Net_2_DPM","TRYK_Shemagh"],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
-	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
-	["<UNIFORM ITEMS >> ",UNIFORM_ITEMS_L],
-	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
-	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
 ];
 
 kit_mossad_gr = [
@@ -101,33 +68,64 @@ kit_mossad_gr = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_ak74_gp25","rhs_30Rnd_545x39_AK",["rhs_acc_dtk1983","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
-	["<UNIFORM ITEMS >> ", UNIFORM_ITEMS],
+	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_MapTools",1],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["HANDGUN MAG",2],["PRIMARY MAG",3],["rhs_VOG25",7]]],
 	["<BACKPACK ITEMS >> ",[["SmokeShell",1],["CUP_HandGrenade_M67",2],["PRIMARY MAG",7],["rhs_mag_m67",2],["CUP_TimeBomb_M",2]]]
 ];
 
-kit_mossad_pl = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","tf_rt1523g_big_bwmod","CUP_H_BAF_Helmet_Net_2_DPM","TRYK_Shemagh_G"],
+kit_mossad_ar = [
+	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_R_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","B_FieldPack_oli","CUP_H_BAF_Helmet_Net_2_DPM",""],
+	["<PRIMARY WEAPON >>  ","LMG_Zafir_F","150Rnd_762x54_Box",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_MapTools",1],["PRIMARY MAG",1],["rhs_mag_m18_yellow",2],["CUP_HandGrenade_M67",2],["rhs_mag_mk84",1],["SmokeShellRed",1]]],
+	["<BACKPACK ITEMS >> ",[["150Rnd_762x54_Box_Tracer",3],["HANDGUN MAG",2]]]
+];
+
+kit_mossad_ftl = [
+	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_R_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","B_FieldPack_oli","CUP_H_BAF_Helmet_Net_2_DPM","TRYK_Shemagh"],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
-	["<UNIFORM ITEMS >> ", UNIFORM_ITEMS_L],
+	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS_L]],
+	["<UNIFORM ITEMS >> ", [UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
 ];
 
-kit_mossad_random = [
-	,"kit_mossad_sl"
-	,"kit_mossad_gr"
-	,"kit_mossad_ar"
-	,"kit_mossad_r"
-	,"kit_mossad_pl"
-	,"kit_mossad_ftl"
+kit_mossad_sl = [
+	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_R_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","tf_anarc210","CUP_H_BAF_Helmet_Net_2_DPM","TRYK_Shemagh"],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS_L]],
+	["<UNIFORM ITEMS >> ", [UNIFORM_ITEMS_L]],
+	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
+	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
+];
+
+kit_mossad_pl = [
+	["<EQUIPEMENT >>  ","TRYK_U_B_OD_OD_CombatUniform","CUP_V_I_RACS_Carrier_Rig_wdl_2","tf_anarc210","CUP_H_BAF_Helmet_Net_2_DPM","TRYK_Shemagh_G"],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS_L]],
+	["<UNIFORM ITEMS >> ", [UNIFORM_ITEMS_L]],
+	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
+	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
 ];
 
 // uganda enemy forces
+
+kit_uganda_random = [
+	"kit_uganda_sl"
+	,"kit_uganda_gr"
+	,"kit_uganda_ar"
+	,"kit_uganda_r"
+];
 
 kit_uganda_sl = [
 	["<EQUIPEMENT >>  ","CUP_U_O_Partisan_VSR_Mixed1","CUP_V_O_TK_OfficerBelt2","","CUP_H_SLA_BeretRed",""],
@@ -135,7 +133,7 @@ kit_uganda_sl = [
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
-	["<UNIFORM ITEMS >> ",synk[UNIFORM_ITEMS]],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",3]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
@@ -171,13 +169,6 @@ kit_uganda_gr = [
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",1],["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",6],["CUP_1Rnd_HE_GP25_M",5]]],
 	["<BACKPACK ITEMS >> ",[]]
-];
-
-kit_uganda_random = [
-	,"kit_uganda_sl"
-	,"kit_uganda_gr"
-	,"kit_uganda_ar"
-	,"kit_uganda_r"
 ];
 
 // palestina enemy forces
@@ -216,12 +207,21 @@ kit_palestina_ar = [
 ];
 
 kit_palestina_random = [
-	,"kit_palestina_sl"
+	"kit_palestina_sl"
 	,"kit_palestina_r"
 	,"kit_palestina_ar"
 ];
 
 // hostage civilian
+
+kit_hostage_random = [
+	"kit_hostage_1"
+	,"kit_hostage_2"
+	,"kit_hostage_3"
+	,"kit_hostage_4"
+	,"kit_hostage_5"
+	,"kit_hostage_6"
+];
 
 kit_hostage_1 = [
 	["<EQUIPEMENT >>  ","U_C_Man_casual_6_F","","","",""],
@@ -235,6 +235,17 @@ kit_hostage_1 = [
 ];
 
 kit_hostage_2 = [
+	["<EQUIPEMENT >>  ","CUP_U_C_Rocker_01","","","",""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", []],
+	["<UNIFORM ITEMS >> ",[]],
+	["<VEST ITEMS >> ",[]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_hostage_3 = [
 	["<EQUIPEMENT >>  ","CUP_U_C_Rocker_01","","","",""],
 	["<PRIMARY WEAPON >>  ","","",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -276,13 +287,4 @@ kit_hostage_6 = [
 	["<UNIFORM ITEMS >> ",[]],
 	["<VEST ITEMS >> ",[]],
 	["<BACKPACK ITEMS >> ",[]]
-];
-
-kit_hostage_random = [
-	,"kit_hostage_1"
-	,"kit_hostage_2"
-	,"kit_hostage_3"
-	,"kit_hostage_4"
-	,"kit_hostage_5"
-	,"kit_hostage_6"
 ];
