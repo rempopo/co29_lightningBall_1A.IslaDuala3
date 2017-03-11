@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=457;
+		nextID=480;
 	};
 	class MarkerIDProvider
 	{
-		nextID=11;
+		nextID=12;
 	};
 	class LayerIndexProvider
 	{
-		nextID=36;
+		nextID=41;
 	};
 	class Camera
 	{
-		pos[]={5133.8608,109.46154,2157.4265};
-		dir[]={-0.013420713,-0.60244048,0.79806757};
-		up[]={-0.01012953,0.79814446,0.60237962};
-		aside[]={0.99987066,2.4178007e-007,0.016813427};
+		pos[]={4186.1563,91.606644,2312.196};
+		dir[]={-0.36094916,-0.51585823,0.77703673};
+		up[]={-0.21732765,0.85667074,0.46785292};
+		aside[]={0.90701324,1.1702068e-006,0.421325};
 	};
 };
 binarizationWanted=0;
@@ -36,17 +36,21 @@ addons[]=
 	"A3_Structures_F_Mil_Fortification",
 	"CUP_Misc3_Config",
 	"A3_Characters_F",
-	"A3_Characters_F_Exp_Civil",
 	"A3_Modules_F",
 	"A3_Modules_F_Curator_Curator",
 	"CUP_WheeledVehicles_V3S",
-	"A3_Modules_F_Curator_Misc"
+	"A3_Modules_F_Curator_Misc",
+	"CUP_CAStructures_E_HouseA_A_Villa",
+	"A3_Structures_F_EPB_Civ_Camping",
+	"A3_Structures_F_Civ_Constructions",
+	"A3_Structures_F_Items_Vessels",
+	"cba_xeh"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=11;
+		items=12;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -92,29 +96,34 @@ class AddonsMetaData
 		};
 		class Item7
 		{
-			className="A3_Characters_F_Exp";
-			name="Arma 3 Apex - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item8
-		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item10
+		class Item9
 		{
 			className="CUP_WheeledVehicles_V3S";
 			name="CUP_WheeledVehicles_V3S";
+		};
+		class Item10
+		{
+			className="CUP_CAStructures_E_HouseA_A_Villa";
+			name="CUP_CAStructures_E_HouseA_A_Villa";
+		};
+		class Item11
+		{
+			className="A3_Structures_F_EPB";
+			name="Arma 3 Adapt Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
 		};
 	};
 };
@@ -144,25 +153,6 @@ class CustomAttributes
 	{
 		name="Multiplayer";
 		class Attribute0
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
 		{
 			property="RespawnTemplates";
 			expression="true";
@@ -209,6 +199,25 @@ class CustomAttributes
 							};
 						};
 					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
 				};
 			};
 		};
@@ -267,17 +276,16 @@ class Mission
 	};
 	class Entities
 	{
-		items=41;
+		items=47;
 		class Item0
 		{
 			dataType="Marker";
-			position[]={3817.8401,-2.5316209e-034,2493.5911};
+			position[]={4108.1626,15.489389,2423.3508};
 			name="marker_5";
 			text="   Старый терминал аэропорта";
 			type="mil_objective";
 			colorName="ColorBlack";
 			id=204;
-			atlOffset=-16.57;
 		};
 		class Item1
 		{
@@ -805,7 +813,7 @@ class Mission
 			name="Playable Units";
 			class Entities
 			{
-				items=5;
+				items=4;
 				class Item0
 				{
 					dataType="Group";
@@ -1370,604 +1378,6 @@ class Mission
 					};
 					id=435;
 				};
-				class Item4
-				{
-					dataType="Group";
-					side="Civilian";
-					class Entities
-					{
-						items=10;
-						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3811.646,16.571438,2471.5811};
-							};
-							side="Civilian";
-							flags=7;
-							class Attributes
-							{
-								rank="SERGEANT";
-								description="1'4 Squad Leader";
-							};
-							id=443;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.94999999;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item1
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3813.646,16.571438,2470.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								rank="CORPORAL";
-								description="RED - FTL";
-							};
-							id=444;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.97000003;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item2
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3815.646,16.571438,2470.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								description="Automatic Rifleman";
-							};
-							id=445;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.98000002;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item3
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3817.646,16.571438,2470.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								description="Grenadier";
-							};
-							id=446;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.03;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item4
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3819.646,16.571438,2470.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								description="Rifleman";
-							};
-							id=447;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.98000002;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item5
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3813.646,16.720602,2466.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								rank="CORPORAL";
-								description="BLUE - FTL";
-							};
-							id=448;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.97000003;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item6
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3815.646,16.720602,2466.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								description="Automatic Rifleman";
-							};
-							id=449;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item7
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3817.646,16.720602,2466.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								description="Grenadier";
-							};
-							id=450;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.98000002;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item8
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3819.646,16.720602,2466.5811};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								description="Rifleman";
-							};
-							id=451;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.02;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item9
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={3811.9468,16.715899,2466.6904};
-							};
-							side="Civilian";
-							flags=5;
-							class Attributes
-							{
-								description="Automatic Rifleman";
-							};
-							id=456;
-							type="C_man_1";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isHandcuffed";
-									expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-					};
-					class Attributes
-					{
-						behaviour="SAFE";
-						speedMode="LIMITED";
-					};
-					id=441;
-				};
 			};
 			id=265;
 			atlOffset=0.88631153;
@@ -2150,8 +1560,95 @@ class Mission
 		{
 			dataType="Layer";
 			name="DynAI Layer";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={4422.625,14.94,2403.0969};
+					};
+					name="dzn_dynai_core";
+					id=457;
+					type="Logic";
+				};
+				class Item1
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={4150.6304,15.35,2360.2095};
+					};
+					name="enemy_1";
+					id=458;
+					type="Logic";
+				};
+				class Item2
+				{
+					dataType="Trigger";
+					position[]={4135.4844,15.25,2186.2188};
+					class Attributes
+					{
+						sizeA=120;
+						sizeB=80;
+						isRectangle=1;
+					};
+					id=459;
+					type="EmptyDetectorAreaR250";
+				};
+				class Item3
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={4148.1597,15.35,2478.0488};
+					};
+					name="enemy_2";
+					id=460;
+					type="Logic";
+				};
+				class Item4
+				{
+					dataType="Trigger";
+					position[]={4087.8501,15.625454,2420.9961};
+					angle=1.1937703;
+					class Attributes
+					{
+						sizeA=20;
+						sizeB=30;
+						isRectangle=1;
+					};
+					id=461;
+					type="EmptyDetectorAreaR250";
+				};
+				class Item5
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={4150.0688,15.35,2445.2837};
+					};
+					name="hostage";
+					id=478;
+					type="Logic";
+				};
+				class Item6
+				{
+					dataType="Trigger";
+					position[]={4094.9875,15.62512,2418.446};
+					class Attributes
+					{
+						sizeA=30;
+						sizeB=30;
+					};
+					id=479;
+					type="EmptyDetectorAreaR250";
+				};
+			};
 			id=345;
-			atlOffset=43.779999;
+			atlOffset=0.16246033;
 		};
 		class Item36
 		{
@@ -2223,33 +1720,106 @@ class Mission
 		{
 			dataType="Layer";
 			name="dzn_Gear Layer";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Logic";
-					class PositionInfo
-					{
-						position[]={3808.5193,16.57,2470.4558};
-					};
-					init="this setVariable ['dzn_gear', 'kit_hostage_random'];";
-					id=452;
-					type="Logic";
-				};
-			};
 			id=400;
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4090.7971,21.029701,2412.4036};
+				angles[]={0,5.1582403,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=465;
+			type="Land_A_Villa_dam_EP1";
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4085.4841,15.747881,2423.1082};
+				angles[]={0.0009134906,0,0.00034526698};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=472;
+			type="Land_Camping_Light_F";
+			atlOffset=0.006562233;
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4085.8601,15.943467,2412.6631};
+				angles[]={0,3.440681,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=474;
+			type="Land_Pallets_F";
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4114.8984,15.772676,2413.7158};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=475;
+			type="MetalBarrel_burning_F";
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4097.8457,16.047804,2421.3772};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=476;
+			type="MetalBarrel_burning_F";
+			atlOffset=2.1934509e-005;
+		};
+		class Item46
+		{
+			dataType="Marker";
+			position[]={4094.9033,15.489405,2406.5864};
+			name="marker_11";
+			type="loc_Tourism";
+			id=477;
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=11;
+			nextID=7;
 		};
 		class Links
 		{
-			items=11;
+			items=7;
 			class Item0
 			{
 				linkID=0;
@@ -2263,8 +1833,8 @@ class Mission
 			class Item1
 			{
 				linkID=1;
-				item0=443;
-				item1=452;
+				item0=458;
+				item1=457;
 				class CustomData
 				{
 					type="Sync";
@@ -2273,8 +1843,8 @@ class Mission
 			class Item2
 			{
 				linkID=2;
-				item0=444;
-				item1=452;
+				item0=458;
+				item1=459;
 				class CustomData
 				{
 					type="Sync";
@@ -2283,8 +1853,8 @@ class Mission
 			class Item3
 			{
 				linkID=3;
-				item0=445;
-				item1=452;
+				item0=460;
+				item1=457;
 				class CustomData
 				{
 					type="Sync";
@@ -2293,8 +1863,8 @@ class Mission
 			class Item4
 			{
 				linkID=4;
-				item0=446;
-				item1=452;
+				item0=460;
+				item1=461;
 				class CustomData
 				{
 					type="Sync";
@@ -2303,8 +1873,8 @@ class Mission
 			class Item5
 			{
 				linkID=5;
-				item0=447;
-				item1=452;
+				item0=478;
+				item1=457;
 				class CustomData
 				{
 					type="Sync";
@@ -2313,48 +1883,8 @@ class Mission
 			class Item6
 			{
 				linkID=6;
-				item0=448;
-				item1=452;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item7
-			{
-				linkID=7;
-				item0=449;
-				item1=452;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item8
-			{
-				linkID=8;
-				item0=450;
-				item1=452;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item9
-			{
-				linkID=9;
-				item0=451;
-				item1=452;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item10
-			{
-				linkID=10;
-				item0=456;
-				item1=452;
+				item0=478;
+				item1=479;
 				class CustomData
 				{
 					type="Sync";
