@@ -118,7 +118,7 @@ kit_mossad_pl = [
 	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
 ];
 
-kit_mossad_random = [
+//kit_mossad_random = [
 	,"kit_mossad_sl"
 	,"kit_mossad_gr"
 	,"kit_mossad_ar"
