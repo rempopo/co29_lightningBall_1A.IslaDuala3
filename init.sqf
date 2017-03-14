@@ -1,7 +1,7 @@
 
 // dzn Gear
   // set true to engage Edit mode
-[true] execVM "dzn_gear\dzn_gear_init.sqf";
+[false] execVM "dzn_gear\dzn_gear_init.sqf";
   // dzn DynAI
 [] execVM "dzn_dynai\dzn_dynai_init.sqf";
   // TS Framework

@@ -10,26 +10,26 @@
     /* Groups: */
     [
         [
-            1, /* Groups quantity */
+            8, /* Groups quantity */
+            /* Units */
+            [
+                ["O_Soldier_F", [], "kit_uganda_random"]
+                ,["O_Soldier_F", [], "kit_uganda_random"]
+            ]
+        ]
+        ,[
+            4, /* Groups quantity */
             /* Units */
             [
                 ["O_Soldier_F", ["indoors"], "kit_uganda_random"]
-                ,["O_Soldier_F", ["indoors"], "kit_uganda_random"]
-                ,["O_Soldier_F", ["indoors"], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
-                ,["O_Soldier_F", [], "kit_uganda_random"]
             ]
         ]
     ],
     /* Behavior: Speed, Behavior, Combat mode, Formation */
     ["LIMITED","SAFE","YELLOW","WEDGE"]
 ],
+
+// old terminal
 
 [
     "enemy_2", /* Zone Name */
@@ -37,17 +37,25 @@
     /* Groups: */
     [
         [
+            4, /* Groups quantity */
+            /* Units */
+            [
+                ["O_Soldier_F", ["indoors"], "kit_palestina_random"]
+            ]
+        ]
+        ,[
+            1, /* Groups quantity */
+            /* Units */
+            [
+                ["O_Soldier_F", [], "kit_palestina_random"]
+                ,["O_Soldier_F", [], "kit_palestina_random"]
+            ]
+        ]
+        ,[
             1, /* Groups quantity */
             /* Units */
             [
                 ["O_Soldier_F", ["indoors"], "kit_palestina_random"]
-                ,["O_Soldier_F", ["indoors"], "kit_palestina_random"]
-                ,["O_Soldier_F", ["indoors"], "kit_palestina_random"]
-                ,["O_Soldier_F", ["indoors"], "kit_palestina_random"]
-                ,["O_Soldier_F", ["indoors"], "kit_palestina_random"]
-                ,["O_Soldier_F", ["indoors"], "kit_palestina_random"]
-                ,["O_Soldier_F", [], "kit_palestina_random"]
-                ,["O_Soldier_F", [], "kit_palestina_random"]
             ]
         ]
     ],
@@ -56,23 +64,34 @@
 ],
 
 [
-    "hostage", /* Zone Name */
-    "CIVILIAN",true, /* Side, is Active */ [],[],
+    "enemy_reinf", /* Zone Name */
+    "EAST",true, /* Side, is Active */ [],[],
     /* Groups: */
     [
         [
             1, /* Groups quantity */
             /* Units */
             [
-                ["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
-                ,["C_man_1", ["indoors"], "kit_hostage_random"]
+                ["CUP_I_V3S_Open_TKG", "Vehicle Patrol", ""]
+                ,["O_Soldier_F", [0,"Driver"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Commander"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [0,"Cargo"], "kit_uganda_random"]
+                ,["CUP_I_V3S_Open_TKG", "Vehicle Patrol", ""]
+                ,["O_Soldier_F", [11,"Driver"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Commander"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Cargo"], "kit_uganda_random"]
+                ,["O_Soldier_F", [11,"Cargo"], "kit_uganda_random"]
             ]
         ]
     ],
