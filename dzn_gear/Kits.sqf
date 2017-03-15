@@ -57,7 +57,7 @@ kit_mossad_r = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","ACE_MapTools"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_MapTools",1],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",8],["SmokeShell",1],["CUP_HandGrenade_M67",2],["HANDGUN MAG",3]]]
@@ -68,7 +68,7 @@ kit_mossad_gr = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_ak74_gp25","rhs_30Rnd_545x39_AK",["rhs_acc_dtk1983","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","ACE_MapTools"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_MapTools",1],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["HANDGUN MAG",2],["PRIMARY MAG",3],["rhs_VOG25",7]]],
 	["<BACKPACK ITEMS >> ",[["SmokeShell",1],["CUP_HandGrenade_M67",2],["PRIMARY MAG",7],["rhs_mag_m67",2],["CUP_TimeBomb_M",2]]]
@@ -79,7 +79,7 @@ kit_mossad_ar = [
 	["<PRIMARY WEAPON >>  ","LMG_Zafir_F","150Rnd_762x54_Box",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","ACE_MapTools"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_MapTools",1],["PRIMARY MAG",1],["rhs_mag_m18_yellow",2],["CUP_HandGrenade_M67",2],["rhs_mag_mk84",1],["SmokeShellRed",1]]],
 	["<BACKPACK ITEMS >> ",[["150Rnd_762x54_Box_Tracer",3],["HANDGUN MAG",2]]]
@@ -90,7 +90,7 @@ kit_mossad_ftl = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS_L]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","ACE_MapTools","Binocular"],
 	["<UNIFORM ITEMS >> ", [UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
@@ -101,7 +101,7 @@ kit_mossad_sl = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS_L]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","ACE_MapTools","Binocular"],
 	["<UNIFORM ITEMS >> ", [UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
@@ -112,7 +112,7 @@ kit_mossad_pl = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_FNFAL_OSW","CUP_20Rnd_762x51_FNFAL_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_MicroUzi","CUP_30Rnd_9x19_UZI",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS_L]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","ACE_MapTools","Binocular"],
 	["<UNIFORM ITEMS >> ", [UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["ACE_Flashlight_XL50",1],["ACE_CableTie",3],["ACE_EarPlugs",1],["CUP_HandGrenade_M67",2],["SmokeShell",1],["PRIMARY MAG",4],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["CUP_TimeBomb_M",1],["PRIMARY MAG",5],["HANDGUN MAG",2],["rhs_mag_m18_red",1],["rhs_mag_m67",1]]]
@@ -132,7 +132,7 @@ kit_uganda_sl = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM","CUP_30Rnd_762x39_AK47_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",3]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -143,7 +143,7 @@ kit_uganda_r = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM","CUP_30Rnd_762x39_AK47_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",5],["rhs_mag_rgd5",1]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -154,7 +154,7 @@ kit_uganda_ar = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_RPK74_45","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",2],["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",8]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -165,7 +165,7 @@ kit_uganda_gr = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AK74_GL","CUP_30Rnd_545x39_AK_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",1],["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",6],["CUP_1Rnd_HE_GP25_M",5]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -178,7 +178,7 @@ kit_palestina_sl = [
 	["<PRIMARY WEAPON >>  ","","",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HANDGUN MAG",4],["rhs_mag_rgd5",1]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -189,7 +189,7 @@ kit_palestina_r = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AK74","CUP_30Rnd_545x39_AK_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",2],["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",4],["rhs_mag_rgd5",1]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -200,7 +200,7 @@ kit_palestina_ar = [
 	["<PRIMARY WEAPON >>  ","CUP_arifle_RPK74","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", [ASSIGNED_ITEMS]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",6],["rhs_mag_rgd5",1]]],
 	["<BACKPACK ITEMS >> ",[]]

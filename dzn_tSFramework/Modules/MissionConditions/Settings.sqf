@@ -40,6 +40,6 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
 // If you're Lim~, then you may need this. Uncomment to use.
 // if (isNil "ts_tasks") then { ts_tasks = 0 };
 
-MissionCondition1 = [ "WIN", "(!alive CUP_O_Su25_TKA) && (Civilian inArea BaseTrg)", "All objectives done" ];
+MissionCondition1 = [ "WIN", "(Civilian inArea BaseTrg)", "All objectives done" ];
 MissionCondition2 = [ "WIPED", "{alive _x} count (call BIS_fnc_listPlayers) < 1", "All dead", 30 ];
 MissionCondition3 = [ "FAIL", "(!alive Civilian) && {call fnc_CheckPlayersReturned}", "Заложники не эвакуированы", 30 ];
